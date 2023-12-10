@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from math import floor as Floor
 """ The `2-floor` module supplies a function `floor`"""
+from math import floor as Floor
 
 
 def floor(n: float) -> int:
