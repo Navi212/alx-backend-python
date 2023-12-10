@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ The `5-sum_list` module supplies a funcion `sum_list` """
 
 
