@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+from typing import List
 """ The `5-sum_list` module supplies a funcion `sum_list` """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     sum_list: Function that returns sum of floats in the list
 
@@ -12,7 +13,4 @@ def sum_list(input_list: list[float]) -> float:
     Return:
     sum: float
     """
-    sum = 0
-    for num in input_list:
-        sum += num
-    return (sum)
+    return (float(sum(input_list)))
