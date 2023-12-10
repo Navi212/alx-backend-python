@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import math
+from math import floor as Floor
 """ The `2-floor` module supplies a function `floor`"""
 
 
@@ -13,4 +13,4 @@ def floor(n: float) -> int:
     Return:
     floor: int
     """
-    return (math.floor(n))
+    return (Floor(n))
