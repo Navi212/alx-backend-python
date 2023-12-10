@@ -6,7 +6,8 @@ from typing import Iterable, List, Tuple, Sequence
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     element_length: Function that takes iterable asa an argument
-                    Example of an iterable, a list
+                    Example of an iterable, list, tuple etc that
+                    permits the 'for loop construct'
 
     Args:
     lst:            Iterable of Sequence
