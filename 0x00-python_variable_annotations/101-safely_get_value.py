@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-""" The `101-safely_get_value` module supplies a function `safely_get_value` """
+"""
+The `101-safely_get_value` module supplies a function
+`safely_get_value`
+"""
 from typing import Mapping, TypeVar, Callable, Any, Union
 
 
@@ -8,11 +11,12 @@ T = TypeVar('T')
 default = Union[T, None]
 ret_val = Union[Any, T]
 
+
 def safely_get_value(dct: Mapping, key: Any, default: default) -> ret_val:
     """
-    safely_get_value: Function that accepts a dictionary(Mapping), Key(Type:Any),
-                      default(Type: T(typevar or None)) as arguments and returns
-                      Any or T
+    safely_get_value: Function that accepts a dictionary(Mapping),
+                      Key(Type:Any), default(Type: T(typevar or None))
+                      as arguments and returns Any or T
 
     Args:
     dct:              Mapping
