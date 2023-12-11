@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ The `3-tasks` module supplies a function `task_wait_random` """
 import asyncio
-wait_random = __import__('3-tasks').wait_random
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
